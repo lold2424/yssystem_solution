@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace yssystem_solution.Entities
 {
-     [Table("TB_EQUIPMENT")]
+    [Table("TB_EQUIPMENT")]
     public class Equipment
     {
         [Key]

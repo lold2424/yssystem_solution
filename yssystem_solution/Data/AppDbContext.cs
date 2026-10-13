@@ -9,6 +9,10 @@ namespace yssystem_solution.Data
 
         public DbSet<EquipLog> EquipLogs => Set<EquipLog>();
 
+        public DbSet<ParamLimit> ParamLimits => Set<ParamLimit>();
+
+        public DbSet<EquipData> EquipDatas => Set<EquipData>();
+
         private const string ConnectionString =
             "Server=localhost;Database=YSSYSTEM_SOLUTION;Trusted_Connection=True;TrustServerCertificate=True;";
 
